@@ -22,12 +22,3 @@ source venv/Scripts/activate
   python run.py
 ```
 
-
-
-
-
-
-
-
-running migration -> alembic revision -m "here goes the comment"
-alembic upgrade head
