@@ -1,11 +1,10 @@
 # Developed on Windows 11.
 
-1. **Clone the repository.**
+1. Clone the repository.
 ```sh
 git clone 
 ```
-On windows
-2. 
+2. Activate the virtual environment
 ```sh
 python -m venv venv
 source venv/Scripts/activate
@@ -14,7 +13,21 @@ source venv/Scripts/activate
 ```sh
   pip install -r **requirements**.txt
 ```
-4. Run 
+4. Run Migration
+```sh
+  alembic revision -m "first migration"
+```
+5. Run 
 ```sh
   python run.py
 ```
+
+
+
+
+
+
+
+
+running migration -> alembic revision -m "here goes the comment"
+alembic upgrade head
