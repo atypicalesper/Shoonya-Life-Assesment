@@ -11,7 +11,7 @@ source venv/Scripts/activate
 ```
 3. installing dependencies
 ```sh
-  pip install -r **requirements**.txt
+  pip install -r requirements.txt
 ```
 4. Run Migration
 ```sh
